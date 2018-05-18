@@ -1,0 +1,155 @@
+.container_holidaysType {
+  height: 520px;
+  background: url("../img/city.png");
+
+  @media  (max-width: 767px) {
+    height: 300px;
+      }
+  @media  (max-width: 576px) {
+    height: 250px;
+  }
+}
+.container_holidaysType__title {
+   color: white;
+  font-family: $font-stack;
+
+  @media  (max-width: 767px) {
+    margin-top: 10px;
+  }
+  @media  (max-width: 576px) {
+    font-size: 1rem;
+    border: 1px;
+    margin-top: 15px;
+    color: $green;
+  }
+}
+.container_holidaysType__title_font {
+  font-family: $font-stack;
+}
+.container_holidaysType__textStyle {
+  color: white;
+  font-family: $font-stack;
+
+  @media  (max-width: 576px) {
+    font-size: 0.8rem;
+    color: $green;
+  }
+}
+.container_holidaysType__circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background: none;
+  border: 3px solid white;
+
+  @media  (max-width: 1098px) {
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+  }
+}
+.container_holidaysType__signature {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-family: $font-stack;
+
+  @media (max-width: 576px) {
+    font-size: 0.8rem;
+ }
+}
+.container_holidaysType__title_height{
+  height: 145px;
+}
+.container_holidaysType__blockIng_height {
+    height: 375px;
+
+  @media  (max-width: 576px) {
+   height: 275px;
+  }
+}
+
+.container_holidaysType__circle:hover  {
+  border: 3px solid $green;
+}
+.container_holidaysType__signature:hover {
+  color: $green;
+}
+
+.container_holidaysType__circle-link {
+  text-decoration: none!important;
+}
+.container_holidaysType__circle-img_animation:hover
+{
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  }
+
+@-webkit-keyframes container_holidaysType__circle-img_animation
+{
+  15%
+  {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30%
+  {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50%
+  {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65%
+  {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80%
+  {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100%
+  {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes swing
+{
+  15%
+  {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30%
+  {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50%
+  {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65%
+  {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80%
+  {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100%
+  {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}

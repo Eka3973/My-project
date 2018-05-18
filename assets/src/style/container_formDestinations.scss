@@ -1,0 +1,72 @@
+.container_formDestinations__style {
+  height: 105px;
+  background-color: $gray-600;
+  font-family: $font-stack;
+}
+.container_formDestinations__blockSlogan {
+  position: relative;
+  color: white;
+  height: 105px;
+}
+.container_formDestinations__blockSlogan_textTop {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.container_formDestinations__blockSlogan_textBottom {
+  font-weight: 600;
+  font-family: $font-stack;
+}
+.container_formDestinations__button {
+  background-color: $green;
+  color: white;
+  border: none;
+
+  @media  (max-width: 768px) {
+    height: 30px;
+  }
+  @media (max-width: 576px) {
+    height: 30px;
+
+  }
+}
+.container_formDestinations__input {
+  color: white;
+  width: 100px;
+}
+.container_formDestinations__inputImg {
+  background-color: white;
+
+  @media  (max-width: 768px) {
+    height: 30px;
+  }
+  @media (max-width: 576px) {
+    height: 30px;
+  }
+}
+.container_formDestinations__blockSlogan::after, .container_formDestinations__blockSlogan::before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid white;
+  top: 42px;
+  left: 112px;
+}
+.container_formDestinations__blockSlogan::after {
+  border-left: 10px solid $gray-600;
+  top: 42px;
+  left: 111px;
+}
+.form-control {
+
+  @media  (max-width: 768px) {
+    height: 30px;
+    font-size: 1rem;
+  }
+  @media (max-width: 576px) {
+    height: 30px;
+    font-size: 0.8rem;
+  }
+}

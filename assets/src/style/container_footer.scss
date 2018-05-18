@@ -1,0 +1,174 @@
+.container_footerTop {
+  height: 290px;
+  background-color: #2c3e50;
+
+  @media (max-width: 768px) {
+    height: 290px;
+  }
+}
+.container_footer__bloc-news {
+  font-size: 13px;
+  color: white;
+  font-family: $font-stack;
+}
+.container_footer__title-news {
+  color: $green;
+  font-weight: bolder;
+
+  @media  (max-width: 576px) {
+    margin-top: 10px;
+  }
+}
+.container_footer__text-news {
+  font-family: $font-stack;
+  color: white;
+  font-size: 11px;
+}
+.container_footer__inputGroup {
+  width: 175px;
+  height: 30px;
+  font-size: 11px;
+ }
+.container_footer__date-news {
+  color: $green;
+}
+.container_footer__button-news {
+  background: $green;
+  color: white;
+  height: 30px;
+  width: 50px;
+  font-size: 11px;
+}
+.container_footer__latestNews-img {
+  width: 37px;
+  height: 37px;
+  border: 1px solid white;
+  padding: 5px;
+  margin-top: 5px;
+}
+.container_footer__buttonAgentLogin {
+  width: 85px;
+  height: 30px;
+  font-size: 11px;
+  font-family: $font-stack;
+}
+.container_footer__buttonCustomerLogin {
+  width: 115px;
+  height: 30px;
+  font-size: 11px;
+  font-family: $font-stack;
+ }
+.container_footer__buttonNotMember {
+  width: 105px;
+  height: 30px;
+  font-size: 11px;
+  font-family: $font-stack;
+}
+.container_footer__buttonContact {
+  width: 60px;
+  height: 30px;
+  font-size: 11px;
+  font-family: $font-stack;
+}
+.container_footer__buttonNotHorizons {
+  width: 95px;
+  height: 30px;
+  font-size: 11px;
+  font-family: $font-stack;
+}
+.container_footer__buttonLanscape {
+  width: 70px;
+  height: 30px;
+  font-size: 11px;
+  font-family: $font-stack;
+}
+.container_footer__buttonTags {
+  width: 40px;
+  height: 30px;
+  font-size: 11px;
+  font-family: $font-stack;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 6px;
+}
+.container_footer__buttonNice {
+  width: 43px;
+  height: 30px;
+  font-size: 11px;
+  font-family: $font-stack;
+}
+.container_footer__buttonSome {
+  width: 50px;
+  height: 30px;
+  font-size: 11px;
+  font-family: $font-stack;
+}
+.container_footer__buttonPortrait {
+  width: 60px;
+  height: 30px;
+  font-size: 11px;
+  font-family: $font-stack;
+}
+.container_footer__e-mail {
+  font-size: 11px;
+  color: white;
+  font-family: $font-stack;
+  font-family: $font-stack;
+}
+.container_footer__e-mail_color {
+  color: $green;
+  font-family: $font-stack;
+}
+.container_footer__spriteSocial {
+  background-image: url("../img/spriteBottom.png");
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 35px;
+}
+.container_footer__icon-facebook {
+  background-position: 11px 10px;
+}
+.container_footer__icon-twitter {
+  background-position: -36px 10px;
+}
+.container_footer__icon-tumblr {
+  background-position: -87px 10px;
+}
+.container_footer__icon-pinterest {
+  background-position: -136px 10px;
+}
+.container_footerBottom {
+  height: 155px;
+  background-color: $gray-600;
+  border-top: 0.25px solid #394c5f;
+  border-top: 1px solid #394c5f;
+}
+.container_footerBottom-link {
+  color: white;
+}
+.container_footerBottom-linkCopyright {
+  color: #9dafc0;
+  font-family: $font-stack;
+}
+.breadcrumb {
+  background-color: $gray-600;
+  color: white;
+  font-family: $font-stack;
+}
+.breadcrumb-item::before {
+  color: white;
+}
+.container_footerBottom-triangle {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid $green;
+  margin: auto;
+  margin-bottom: 0px;
+}
+.container_footerBottom-triangle-arrow {
+  margin-top: 25px;
+  margin-left: -5px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "my-first-project",
+  "description": "My First Gulp Project",
+  "main": "gulpfile.js",
+  "authors": [
+    "Ekaterina"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Eka3973/My-project",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/src/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
