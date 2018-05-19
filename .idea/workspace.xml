@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf156e3f-bf92-49a2-94bd-443926c189f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/src/index.html" afterPath="$PROJECT_DIR$/assets/src/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +54,6 @@
         <option value="$PROJECT_DIR$/assets/src/style/animate.scss" />
         <option value="$PROJECT_DIR$/assets/src/style/main.scss" />
         <option value="$PROJECT_DIR$/assets/src/style/container_header.scss" />
-        <option value="$PROJECT_DIR$/assets/src/index.html" />
         <option value="$PROJECT_DIR$/assets/src/style/container_footer.scss" />
         <option value="$PROJECT_DIR$/assets/src/style/container_formDestinations.scss" />
         <option value="$PROJECT_DIR$/assets/src/style/container_gallery.scss" />
@@ -65,6 +63,7 @@
         <option value="$PROJECT_DIR$/assets/src/style/container_navbar.scss" />
         <option value="$PROJECT_DIR$/assets/build/index.html" />
         <option value="$PROJECT_DIR$/assets/src/js/main.js" />
+        <option value="$PROJECT_DIR$/assets/src/index.html" />
       </list>
     </option>
   </component>
@@ -89,6 +88,17 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/assets/src/bower_components/bootstrap/package.json" />
+    <dismissed value="$PROJECT_DIR$/assets/src/bower_components/popper.js/package.json" />
+    <dismissed value="$PROJECT_DIR$/assets/src/bower_components/popper.js/packages/babel-config/package.json" />
+    <dismissed value="$PROJECT_DIR$/assets/src/bower_components/popper.js/packages/bundle/package.json" />
+    <dismissed value="$PROJECT_DIR$/assets/src/bower_components/popper.js/packages/eslint-config-popper/package.json" />
+    <dismissed value="$PROJECT_DIR$/assets/src/bower_components/popper.js/packages/popper/package.json" />
+    <dismissed value="$PROJECT_DIR$/assets/src/bower_components/popper.js/packages/test-utils/package.json" />
+    <dismissed value="$PROJECT_DIR$/assets/src/bower_components/popper.js/packages/test/package.json" />
+    <dismissed value="$PROJECT_DIR$/assets/src/bower_components/popper.js/packages/tooltip/package.json" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="790" />
     <option name="width" value="582" />
@@ -109,8 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +155,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,11 +207,12 @@
       <workItem from="1526671149540" duration="10898000" />
       <workItem from="1526684868648" duration="920000" />
       <workItem from="1526686108237" duration="424000" />
+      <workItem from="1526687578410" duration="673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400766000" />
+    <option name="totallyTimeSpent" value="401439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -216,13 +227,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23065476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23065476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13322368" sideWeight="0.5119048" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47203946" sideWeight="0.48809522" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47203946" sideWeight="0.48809522" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -526,9 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -536,14 +544,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="461" column="21" lean-forward="false" selection-start-line="461" selection-start-column="21" selection-end-line="461" selection-end-column="21" />
+        <state relative-caret-position="731">
+          <caret line="460" column="23" lean-forward="true" selection-start-line="460" selection-start-column="23" selection-end-line="460" selection-end-column="23" />
           <folding />
         </state>
       </provider>
